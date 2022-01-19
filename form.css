@@ -1,0 +1,23 @@
+body{
+  background-image: url('formimages/74426060-coffee-lover-sign-black-coffee-cup-on-top-pile-of-raw-brown-coffee-beans-with-heart-shape-love-symbo.webp');
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 1420px;
+  height:auto;
+}
+.h{
+  color:white;
+  margin-left: 52%;
+  margin-top: 14%;
+  font-size: 35px;
+  font-family: 'merienda';
+}
+#row1{
+  margin-left: 45%;
+  margin-top: 9%;
+  font-family: 'merienda';
+}
+#row2{
+  margin-top: 5%;
+  font-family: 'merienda';
+}
