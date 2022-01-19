@@ -1,0 +1,39 @@
+#order{
+  height: 100vh;
+  background-image: url(images/cuisine-food-india-indian-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h2{
+  color: chartreuse;
+  text-align: center;
+  position: relative;
+  top:100px;
+}
+.form-label{
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+#btn1,#btn2{
+  background-color:chartreuse ;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+#btn1:hover,#btn2:hover{
+  background-color: #632626;
+  color:#fff;
+}
+#menu1{
+  background-color:chartreuse;
+}
+#p1{
+  color:chartreuse;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#row1{
+  display: none;
+}
