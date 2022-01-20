@@ -22,7 +22,6 @@
     
 }
 #container1{
-    background-color: bl;
     height: 600px;
     background-image: url(images1g/coffee-latte-cappuccino-coffee-shop.jpg);
     background-repeat: no-repeat;
@@ -34,6 +33,34 @@
     font-style: italic;
     color: chartreuse;
     font-weight: bold;
-    background-color: crimson;
+    background-color: #51050F;
 }
+#navre{
+    background-color: #51050F;
+    color: white;
+}
+.nav-item a{
+    color: white;
+    
+}
+.nav-item a:hover{
+    color: chartreuse;
+}
+.logo2, .logo3{
+ position: relative;
+ left: -350px;
+
+
+}
+.logo2 img{
+ height: 60px;
+ width: 60px;
+}
+.logo3 h5{
+    font-style: normal;
+}
+
+
+
+
 
