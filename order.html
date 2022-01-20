@@ -27,9 +27,9 @@
           <label for="select">Choose Your category</label> <br>
           <select class="form-select" id="size">
             <option value="0">Select Your category</option>
-            <option value="large">VVIP @ 1500ksh</option>
-            <option value="medium">VIP @ 900ksh</option>
-            <option value="small">Regular @ 700ksh</option>
+            <option value="VVIP">VVIP @ 1500ksh</option>
+            <option value="VIP">VIP @ 900ksh</option>
+            <option value="Regular">Regular @ 700ksh</option>
           </select> <br>
         </div>
 
@@ -38,26 +38,25 @@
           <select class="form-select" id="crust">
             <option value="0">Select Your crust</option>
             <option value="Crispy">Crispy @ 250ksh</option>
-            <option value="Stuffed">Stuffed @ 150ksh</option>
-            <option value="Gluten-free">Gluten @ 200ksh</option>
+            <option value="Crunchy">Crunchy @ 150ksh</option>
+            <option value="Gluten">Gluten @ 200ksh</option>
           </select> <br>
         </div>
         <br>
-                     
-
-             <label for="Toppings" id="tops">Toppings @ 50 Ksh</label><br>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="Mushrooms" name="topping" value="Mushrooms" checked>
-                <label class="form-check-label" for="Mushrooms">Mushrooms</label>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="Sausage" name="topping" value="Sausage">
-                <label class="form-check-label" for="Sausage">Sausage</label>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="Bacon" name="topping" value="Bacon">
-                <label class="form-check-label" for="Bacon">Bacon</label>
-              </div> <br><br>
+                    
+        <label for="Toppings" id="tops">Toppings @ 50 Ksh</label><br>
+         <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="Mushrooms" name="topping" value="Mushrooms" checked>
+            <label class="form-check-label" for="Mushrooms">Mushrooms</label>
+         </div>
+         <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="Sausage" name="topping" value="Sausage">
+            <label class="form-check-label" for="Sausage">Sausage</label>
+         </div>
+         <div class="form-check">
+           <input type="checkbox" class="form-check-input" id="Bacon" name="topping" value="Bacon">
+           <label class="form-check-label" for="Bacon">Bacon</label>
+         </div> <br><br>
         <button type="submit" id="btn1">PROCEED</button>
      </div>
      <div class="col-md-7" id="menu1">
@@ -85,7 +84,11 @@
               </tr>
             </tbody>
           </table>
-          <button id="btn2">Add Order</button>
+          <p id="mealtotal"></p>
+          <p id="totalbill"></p>
+          <p id="addedprice">Delivery charge 250 ksh</p>
+          <p id="finalmessage"></p>
+          <button id="btn2">ADD ORDER</button>
           <button id="btn3">CHECKOUT</button>
          </div>
        </div>
@@ -99,8 +102,18 @@
         <p>We serve you with best meals according to your request</p>
         <p>All meals including Crust and Toppings</p>
        </div>
+       <div class="delivery">
+        <form action="">
+          <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+          <input type="text" id="phone" class="form-control mb-3" placeholder="Phone number">
+          <input type="text" id="location" class="form-control mb-3" placeholder="Delivery locality">
+        </form>
+        
+    </div>
+     <button id="btn4">DELIVERY</button>
+     <button id="btn5">SUBMIT</button>
      </div>
-   </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="order.js"></script>
