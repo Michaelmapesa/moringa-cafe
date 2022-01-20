@@ -1,5 +1,5 @@
 #order{
-  height: 100vh;
+  height: 103vh;
   background-image: url(images/cuisine-food-india-indian-wallpaper-preview.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -28,6 +28,7 @@
 }
 #menu1{
   background-color:chartreuse;
+  height: 450px;
 }
 #p1{
   color:black;
@@ -39,6 +40,9 @@
 }
 .menu2{
   display: none;
+}
+#menu4{
+  height: 250;
 }
 .form-check-label,#tops{
   color:white;
@@ -59,4 +63,11 @@
 #finalmessage{
   font-size: xx-large;
   margin-top: 11%;
+}
+#btn1{
+  position: relative;
+  top: -20px;
+}
+#foota{
+  width: 100%;
 }
