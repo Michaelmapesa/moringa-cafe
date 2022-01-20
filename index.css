@@ -26,7 +26,7 @@
 	background-color: #632626;
 }
 .span{
-	color:green;
+	color:chartreuse;
 }
 
 .nav{
@@ -60,7 +60,7 @@ justify-content: center;
 }
 .nav a.current,
 .nav a:hover{
-	color:green;
+	color:chartreuse;
 	font-weight: bold;
 }
 h2 .logo{
@@ -115,12 +115,14 @@ padding: 0 1rem;
 	font-size: 1.5rem;
 }
 .home .home-content a:hover{ 
-	color: green;
+	color: chartreuse;
 	/* background-color: gra; */
 } 
 .home .main h4  {
 		font-size: 2rem;
-	color: green;
+	color:chartreuse;
+	position: relative;
+	top: -50px;
 	
 }
 .home-content{
