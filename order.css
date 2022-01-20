@@ -15,14 +15,14 @@ h2{
   font-weight: bold;
   font-size: x-large;
 }
-#btn1,#btn2{
+#btn1,#btn2,#btn3{
   background-color:chartreuse ;
   width: 100px;
   height: 50px;
   font-weight: bold;
   border-radius: 30px;
 }
-#btn1:hover,#btn2:hover{
+#btn1:hover,#btn2:hover,#btn3:hover{
   background-color: #632626;
   color:#fff;
 }
@@ -30,7 +30,7 @@ h2{
   background-color:chartreuse;
 }
 #p1{
-  color:chartreuse;
+  color:black;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -39,4 +39,14 @@ h2{
 }
 .menu2{
   display: none;
+}
+.form-check-label,#tops{
+  color:white;
+  font-weight: bold;
+}
+#information{
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 13%;
+  font-weight: bold;
 }
