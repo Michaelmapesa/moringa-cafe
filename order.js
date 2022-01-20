@@ -36,7 +36,7 @@ $(document).ready(function(){
         crust_price = 0;
       break;
       case "Crispy":
-        crust_price = 200;
+        crust_price = 250;
       break;
       case "Crunchy":
         crust_price = 150;
