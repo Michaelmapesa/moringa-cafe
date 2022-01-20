@@ -2,12 +2,12 @@
 By Michael Mapesa Wanzala
 
 # Contributors
-Mike Kiptoo
-Ruth Chepkorir
+Samuel Wang'ang'a
+Josphine Nzioka
 
 ## Project name
 
-Door Services
+Moringa Cafe
 
 ## Description
 
@@ -26,11 +26,15 @@ Door Services
 
  * HTML3
  * CSS5
- * Java
+ * Javascript
+ * Jquery
+ * Bootstrap
 
 ## Reference
 
 * Html and Css materialize.
+* W3 bootstrap,
+* W3 Jquery.
 
 ## License
 
