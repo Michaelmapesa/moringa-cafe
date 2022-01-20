@@ -3,108 +3,37 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'IBM Plex Serif', serif;
-  font-family: 'Playfair Display', serif;
-	
-  color: #fff;
+    color: #fff;
 }
 
 
-.nav{
-	background-color:#51050F;
-}
-/* .nav li .btn a{
-	font-size: 1.5rem; */
 
-
-.nav li .btn{
-	background-color:#632626;
-	height: 2rem; 
-	
-}
-.nav li .btn:hover{
-	background-color: #632626;
-}
-.span{
-	color:chartreuse;
-}
-
-.nav{
-	position: fixed;
-	font-size: 1.5rem;
-	top: 0;
-	left: 0;
-	transition: all 0.3s ease-in-out;
-	width: 100%;
-}
-.container-fluid{
-	max-width: 1200px;
-	margin: 0 auto;
-}
-.nav .container-fluid{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 0;
-}
-.nav ul{
-display: flex;
-list-style: none;
-align-items: center;
-justify-content: center;
-}
-.nav a{
-	color:#fff;
-	text-decoration: none;
-	padding: 7px 15px;
-}
-.nav a.current,
-.nav a:hover{
-	color:chartreuse;
-	font-weight: bold;
-}
-h2 .logo{
-margin-left :2rem;
-font-size: 1.9rem;
-
-}
-
-.nav h2 .logo a:hover{
-	font-style: italic;
-color: #632626;
-}
-.home .home-content .btn{
-background-color: #632626;
-color: #fff;
-font-size: 1.1rem;
-padding: 0 1rem;
-}
 .home{
 	background-image: url("assets/coffee.jpg");
 	background-repeat: no-repeat;
 	/* background-position: center; */
 	background-size: cover; 	 
-	height: 100vh;
+	height: 90vh;
 
 }
 .home{
 	display: flex;
   	min-height: 500px;
- color:goldenrod;
- margin-bottom: -8rem;
+    color:goldenrod;
+    margin-bottom: -8rem;
 }
  .about{
 	margin-top: 18rem;
 	padding: 2rem;
-	}
-	.home .home-content .text-1{
-		font-size: 1.5rem;
-	}
-	.home .home-content .text-2{
-		font-size: 1.7rem;
-		font-weight: 600;
-		margin-left: -3px;
-	}
+}
+.home .home-content .text-1{
+	font-size: 1.5rem;
+}
+.home .home-content .text-2{
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-left: -3px;
+}
 .home .home-content .text-3{
 	font-size: 1.5rem;
 	margin-top: 5px 0;
@@ -119,7 +48,7 @@ padding: 0 1rem;
 	/* background-color: gra; */
 } 
 .home .main h4  {
-		font-size: 2rem;
+	font-size: 2rem;
 	color:chartreuse;
 	position: relative;
 	top: -50px;
@@ -132,4 +61,8 @@ padding: 0 1rem;
 .home .main{
 	justify-content: center;
 	margin-top: -6rem;
+}
+#last1{
+	position: relative;
+	top: 100px;
 }
