@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    color: #fff;
+}
+
+
+
+.home{
+	background-image: url("assets/coffee.jpg");
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-size: cover; 	 
+	height: 90vh;
+
+}
+.home{
+	display: flex;
+  	min-height: 500px;
+    color:goldenrod;
+    margin-bottom: -8rem;
+}
+ .about{
+	margin-top: 18rem;
+	padding: 2rem;
+}
+.home .home-content .text-1{
+	font-size: 1.5rem;
+}
+.home .home-content .text-2{
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-left: -3px;
+}
+.home .home-content .text-3{
+	font-size: 1.5rem;
+	margin-top: 5px 0;
+}
+.home .home-content .text-3 span{
+	font-weight: 500;
+	color: goldenrod;
+	font-size: 1.5rem;
+}
+.home .home-content a:hover{ 
+	color: chartreuse;
+	/* background-color: gra; */
+} 
+.home .main h4  {
+	font-size: 2rem;
+	color:chartreuse;
+	position: relative;
+	top: -50px;
+	
+}
+.home-content{
+	margin-top: 10%;
+}
+
+.home .main{
+	justify-content: center;
+	margin-top: -6rem;
+}
+#last1{
+	position: relative;
+	top: 100px;
+}

@@ -1,0 +1,66 @@
+#uname{
+    width: 800px;
+    margin-left: 100px;
+    background-color: transparent;
+}
+#pwd{
+    width: 800px;
+    margin-left: 100px;
+    height: 200px;
+    background-color: transparent;
+}
+#buttoni{
+    margin-left: 100px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+#title{
+    text-align: center;
+    font-weight: bold;
+    color: chartreuse;
+    
+}
+#container1{
+    height: 600px;
+    background-image: url(images1g/coffee-latte-cappuccino-coffee-shop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    text-align: center;
+    font-style: italic;
+    color: chartreuse;
+    font-weight: bold;
+    background-color: #51050F;
+}
+#navre{
+    background-color: #51050F;
+    color: white;
+}
+.nav-item a{
+    color: white;
+    
+}
+.nav-item a:hover{
+    color: chartreuse;
+}
+.logo2, .logo3{
+ position: relative;
+ left: -350px;
+
+
+}
+.logo2 img{
+ height: 60px;
+ width: 60px;
+}
+.logo3 h5{
+    font-style: normal;
+}
+
+
+
+
+

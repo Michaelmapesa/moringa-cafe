@@ -1,0 +1,73 @@
+#order{
+  height: 103vh;
+  background-image: url(images/cuisine-food-india-indian-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.h2{
+  color: white;
+  text-align: center;
+  padding-bottom: 6%;
+  padding-top: 4%;
+}
+.form-label{
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5{
+  background-color:chartreuse ;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover{
+  background-color: #632626;
+  color:#fff;
+}
+#menu1{
+  background-color:chartreuse;
+  height: 450px;
+}
+#p1{
+  color:black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#row1{
+  display: none;
+}
+.menu2{
+  display: none;
+}
+#menu4{
+  height: 250;
+}
+.form-check-label,#tops{
+  color:white;
+  font-weight: bold;
+}
+#information{
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 13%;
+  font-weight: bold;
+}
+.delivery{
+  display: none;
+}
+#btn4,#btn5{
+  display: none;
+}
+#finalmessage{
+  font-size: xx-large;
+  margin-top: 11%;
+}
+#btn1{
+  position: relative;
+  top: -20px;
+}
+#foota{
+  width: 100%;
+}
